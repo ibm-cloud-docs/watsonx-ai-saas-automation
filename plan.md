@@ -14,7 +14,7 @@ subcollection: watsonx-ai-saas-automation
 {{site.data.keyword.attribute-definition-list}}
 
 # Planning for the xx deployable architecture
-{: #overview}
+{: #planning}
 
 You might need this topic if you have specific prerequisites, permissions, depdendencies, or other information that the users need to know before deploying.
 {: shortdesc}
