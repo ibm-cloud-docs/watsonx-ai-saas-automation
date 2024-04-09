@@ -36,25 +36,11 @@ toc:
       id: plan
       topics:
       - plan.md
-      - topicgroup:
-          label: topic-group-label
-          topics:
-          - topic-5.md
-          - topicgroup:
-              label: nested-topic-group-label
-              topics:
-              - topic-6.md
 
   - navgroup:
       id: deploy
       topics:
       - deploy.md
-
-  - navgroup:
-      id: deploy
-      topics:
-      - topic-7.md
-      - topic-8.md
 
   - navgroup:
       id: reference
