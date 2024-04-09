@@ -22,7 +22,8 @@ toc:
       id: overview
       topics:
       - overview.md
-      - release-notes.md
+      - topic: release-notes.md
+        navtitle: Release notes
 
   - navgroup:
       id: architecture
@@ -50,8 +51,10 @@ toc:
   - navgroup:
       id: help
       topics:
-      - support.md
-      - faq.md
+      - topic: support.md
+        navtitle: Getting help and support
+      - topic: faq.md
+        navtitle: FAQs
       - topicgroup:
           label: Troubleshooting
           topics:
