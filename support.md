@@ -14,16 +14,16 @@ subcollection: watsonx-ai-saas-automation
 
 <!-- Use your deployable architecture  name in the title to help search results, and use a nav title in the toc.yaml to shorten it to Getting help and support in the left nav-->
 
-# Getting help and support for _deployableArchitectureName_
+# Getting help and support for Watsonx AI SaaS
 {: #help-and-support}
 
-If you experience an issue or have questions when deploying _deployableArchitectureName_, you can use the following resources before you open a support case.
+If you experience an issue or have questions when deploying Watsonx AI SaaS, you can use the following resources before you open a support case.
 {: shortdesc}
 
-* Review the [FAQs](/docs/sap-powervs?topic=sap-powervs-faqs) in the deployment guide.
-* Review the [troubleshooting documentation](docs/sap-powervs?topic=sap-powervs-troubleshoot) to troubleshoot and resolve common issues.
+* Review the [FAQs](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-faqs) in the deployment guide.
+* Review the [troubleshooting documentation](docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-troubleshoot) to troubleshoot and resolve common issues.
 * ![{{site.data.keyword.cloud_notm}} icon](images/ibm-cloud-16.svg "IBM Cloud icon") Check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
-* ![GitHub icon](../icons/logo-github-16.svg "GitHub icon") Review the [GitHub issues](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/issues){: external} to see whether other users experienced the same problem.
+* ![GitHub icon](../icons/logo-github-16.svg "GitHub icon") Review the [GitHub issues](https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da/issues){: external} to see whether other users experienced the same problem.
 
 
 <!-- In this list above, you can also provide a public slack channel for searching for answers or asking questions in a forum, if there is one available. For example, you'd include a bullet like "![Slack icon](../icons/logo-slack-16.svg "GitHub icon") Ask product experts and the community questions on the [slack-channel-name)[url.com] slack channel."  -->
@@ -33,20 +33,11 @@ If you still can't resolve the problem, you can open a support case. For more in
 ## Providing support case details
 {: #support-case-details}
 
-To ensure that the support team can start investigating your case to provide a timely resolution, you must include details from two logs from your failed deployment.
+To ensure that the support team can start investigating your case to provide a timely resolution, you must include in the support ticket the Terraform Log Analyzer summary from your project:
 
-
-1. From your Schematics log, provide the architecture name, source URL, and version.
-   a. In the {{site.data.keyword.cloud_notm}} console, go to **Schematics** > **Workspaces** > **deployable architecture instance**.
-   b. Copy and paste into the case details the portion of the log that provides the architecture information. The following is an example of what should be copied:
-
-      ```sh
-      2023/04/06 18:11:43 Related Workspace: name=deploy-arch-ibm-slz-ocp-04-06-2023, sourcerelease=(not specified), sourceurl=https modules/terraform-ibm-landing-zone/archive/v3.1.2.tar.gz,tolder=terratorm-ibm-landing-zone-3.1.2/patterns/roks
-       ```
-
-2. Provide the Terraform Log Analyzer summary from your project.
-   a. In the {{site.data.keyword.cloud_notm}} console, go to **your project** > **Configurations** > **deployable architecture instance**.
-   b. Depending on where you are in your deployment process go to **Viewing validation results** or **Viewing last deployment**. Take a screenshot of the results and add it to your support case.
+1. In the {{site.data.keyword.cloud_notm}} console, go to **your project** > **Configurations** > **deployable architecture instance**.
+2. Depending on where you are in your deployment process go to **Viewing validation results** or **Viewing last deployment**. Expand all sections, take a screenshot of the results and add it to your support case.
+3. Select the **failed operation (plan or deployment)** > **Logs**. Then, copy and paste the logs and add them to your support case.
 
 ## Routing your support case expeditiously
 {: #support-case-routing}

@@ -27,8 +27,6 @@ Use these release notes to learn about the latest updates to Watsonx AI SaaS dep
 {: shortdesc}
 
 <!-- If you also have a change log for your API or CLI, include the following tip with a link to the change log. -->
-For information about changes to the _service-name_ API, see [Change log for _service-name_ API](/docs/link-to-change-log).
-{: tip}
 
 ## 1 June 2024
 {: #subcollection-jun0124}
