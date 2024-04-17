@@ -20,9 +20,7 @@ The Watsonx AI SaaS deployable architecture automates the deployment and setup o
 the IBM watsonx platform in an IBM Cloud account.
 The IBM watsonx platform is made of several services working together to offer AI capabilities to end users,
 who can explore them using [IBM watsonx projects](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/manage-projects.html?context=wx&audience=wdp).
-On that purpose, the automation also configures a *starter project* for an existing IBM Cloud user in the target IBM Cloud account.
-
-{: shortdesc}
+On that purpose, the automation also configures a *starter project* for an existing IBM Cloud user in the target IBM Cloud account. {: shortdesc}
 
 The deployable architecture can then help setting up an IBM watsonx platform ready to use in one or more Enterprise accounts granting administrator access
 to an AI Researcher or any other professional who needs access to advanced AI technologies for their work.
@@ -34,6 +32,7 @@ for wiring the deployable architecture to the other components of the stack, and
 to install additional Watson services.
 
 ## Watsonx AI SaaS deployable architecture
+{: #watsonx-ai-saas-refarch}
 
 The Watsonx AI SaaS deployable architecture performs the following steps to lay down a ready to use IBM watsonx platform
 in a target IBM Cloud account, Resource Group, and IBM Cloud Location:
