@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-29"
+lastupdated: "2024-04-18"
 
 keywords:
 
@@ -16,17 +16,15 @@ subcollection: watsonx-ai-saas-automation
 # Planning for the Watsonx AI SaaS deployable architecture
 {: #planning}
 
-By the mean of the deployable architecture, you are going to create and configure a set of IBM Cloud services in an IBM Cloud target account.
-Then, you are going to configure access to the IBM watsonx platform for an existing user invited in the target account (IBM watsonx admin).
-You are going to use IBM Cloud projects as deployment tool. So, complete the following steps before you deploy the Watsonx AI SaaS deployable architecture. {: shortdesc}
+By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the Watsonx AI SaaS deployable architecture. 
+{: shortdesc}
 
 ## Confirm your {{site.data.keyword.cloud_notm}} target account settings
 {: #watsonx-ai-saas-cloud-prereqs}
 
 1.  Confirm or set up the {{site.data.keyword.cloud_notm}} target account:
 
-    Make sure that you have an {{site.data.keyword.cloud_notm}} Pay-As-You-Go or Subscription account:
-
+Make sure that you have an {{site.data.keyword.cloud_notm}} Pay-As-You-Go or Subscription account:
     - If you don't have an {{site.data.keyword.cloud_notm}} account, [create one](/docs/account?topic=account-account-getting-started).
     - If you have a Trial or Lite account, [upgrade your account](/docs/account?topic=account-upgrading-account).
 
@@ -38,46 +36,45 @@ You are going to use IBM Cloud projects as deployment tool. So, complete the fol
 ## Set the IAM permissions
 {: #watsonx-ai-saas-iam-prereqs}
 
-1.  Set up target account access ({{site.data.keyword.iamshort}} (IAM)):
+1.  Set up target account access with ({{site.data.keyword.iamshort}} (IAM)):
     1.  For compliance with {{site.data.keyword.framework-fs_notm}}: Require users in your account to use [multifactor authentication (MFA)](/docs/account?topic=account-account-getting-started#account-gs-mfa).
     2.  [Set up access groups](/docs/account?topic=account-account-getting-started#account-gs-accessgroups).
 
-        User access to {{site.data.keyword.cloud_notm}} resources is controlled by using the access policies that are assigned to access groups. For {{site.data.keyword.cloud_notm}} Financial Services validation, do not assign direct IAM access to any {{site.data.keyword.cloud_notm}} resources.
+User access to {{site.data.keyword.cloud_notm}} resources is controlled by using the access policies that are assigned to access groups. For {{site.data.keyword.cloud_notm}} Financial Services validation, do not assign direct IAM access to any {{site.data.keyword.cloud_notm}} resources.
 
-        You should setup one access group for the solution deployers, and one for the IBM watsonx admins.
+ You should set up one access group for the users that can deploy the solution, and one for the {{site.data.keyword.IBM_notm}} watsonx admins.
+ {: tip}
 
 ### Verify access roles
 {: #watsonx-ai-saas-access-roles}
 
-IAM access roles are required to install this deployable architecture and create all the required elements in the IBM Cloud target account:
+IAM access roles are required to install this deployable architecture and create all the required elements in the {{site.data.keyword.Bluemix_notm}} target account:
 
-- All Account Management services
-  - Administrator (only if you must create a new resource group)
-- Watson Machine Learning
-  - Editor platform role (to create and delete the service)
-- Watson Studio
-  - Editor platform role (to create and delete the service)
-- Cloud Object Storage
-  - Editor platform role (to create and delete the service)
-- watsonx.governance
-  - Editor platform role (only if you must provision)
-- watsonx Assistant
-  - Editor platform role (only if you must provision)
-- Watson Discovery
-  - Editor platform role (only if you must provision)
+- Adminsitrator role on All Account Management services
+  - Assign this role if you must create a new resource group
+- Editor platform role on Watson Machine Learning
+  - Assign this role to create and delete the service
+- Editor platform role on Watson Studio
+  - Assign this role to create and delete the service
+- Editor platform role Cloud Object Storage
+  - Assign this role to create and delete the service
+- Editor platform role on watsonx.governance
+  - Assign this role only if you must provision 
+- Editor platform role on watsonx Assistant
+  - Assign this role only if you must provision
+- Editor platform role on Watson Discovery
+  - Assign this role only if you must provision
 
-Those are the roles you should configure for the deployers access group.
+It's recommended to configure these roles for the deployers access group.
+{: tip} 
 
-IAM access roles are required to configure the IBM watsonx admin.
+Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx admin in the {{site.data.keyword.Bluemix_notm}} target account:
 
-You need the following permissions for the IBM watsonx admin in the IBM Cloud target account:
+- Administrator role on All Account Management services
+- Administrator role on All Identity and Access enabled services
 
-- All Account Management services
-  - Administrator
-- All Identity and Access enabled services
-  - Administrator
-
-Those are the roles you should configure for the IBM watsonx admins access group.
+It's recommended to configure these roles for the {{site.data.keyword.IBM_notm}} watsonx admins access group.
+{: tip} 
 
 For information about configuring permissions, contact your {{site.data.keyword.cloud_notm}} account administrator.
 
@@ -86,9 +83,7 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 You should use {{site.data.keyword.cloud_notm}} projects as a deployment option. Projects are designed with infrastructure as code and compliance in mind to help ensure that your projects are managed, secure, and always compliant. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
-The IBM Cloud account where your project resides may be different than the IBM Cloud target account, where you are going to
-install the Watsonx AI SaaS deployable architecture. The following refers to the permissions you must have in the project account
-to create a project and create project tooling resources within the account. Make sure you have the following access:
+The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the Watsonx AI SaaS deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tooling resources within the account. Make sure you have the following access:
 
 - The Editor role on the Projects service.
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
@@ -96,11 +91,9 @@ to create a project and create project tooling resources within the account. Mak
 
 For more information, see [Assigning users access to projects](/docs/secure-enterprise?topic=secure-enterprise-access-project).
 
-## Setup the IBM Cloud projects for deploying in the IBM Cloud target account
+## Setup the {{site.data.keyword.Bluemix_notm}} projects for deploying in the {{site.data.keyword.Bluemix_notm}} target account
 {: #watsonx-ai-saas-projects-prereqs}
 
-Before creating a project to manage the Watsonx AI SaaS deployable architecture,
-you must authorize the deployments.
+Before creating a project to manage the Watsonx AI SaaS deployable architecture, you must authorize the deployments.
 
-You can do that [using a deployer API key with Secrets Manager](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or
-[configuring a trusted profile](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the IBM Cloud target account.
+You can authorize the deployments by [using a deployer API key with Secrets Manager](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or [configuring a trusted profile](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the {{site.data.keyword.Bluemix_notm}} target account.
