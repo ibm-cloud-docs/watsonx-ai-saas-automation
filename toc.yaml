@@ -58,4 +58,5 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
-          - troubleshoot.md
+          - troubleshoot-validate.md
+          - troubleshoot-deploy.md

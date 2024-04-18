@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-29"
+lastupdated: "2024-04-16"
 
 keywords:
 
@@ -18,33 +18,35 @@ content-type: faq
 
 <!-- You must add the faq content type in your attribute definitions AND to each FAQ H2. This will ensure that the FAQ entry is pulled into the FAQ library or chatbots. -->
 
-# FAQs for _service-name_
-{: #my-service-faqs}
+# FAQs for Watsonx AI SaaS deployable architecture
+{: #watsonx-ai-saas--faqs}
 
 <!-- The title of your H1 should be FAQs for _service-name_, where _service-name_ is the non-trademarked short version keyref. Include your service name as a search keyword at the top of your Markdown file. See the example keywords above. -->
 
-FAQs for xxx might include questions about xxx or xxx. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
+FAQs for Watsonx AI SaaS deployable architecture. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
 {: shortdesc}
 
-<!-- where the first xxx is the long name of your service and the following xxx are pulled from your popular FAQs -->
-
-## How should I set up my page?
-{: #faq-page-setup}
+## What is the content of Watsonx AI SaaS deployable architecture?
+{: #what-is-da}
 {: faq}
 
-* Use "FAQs for xxx" as your title, where xxx is the short name with no trademarks.
-* Name the file `faqs.md` for URL readability.
-* If you require multiple FAQ files, group under a "FAQs" topicgroup and use a unique name for each file.
-* Add each question as an H2.
-* Use paragraph text following the associated H2 question for each answer.
-* Set the `faq` content type attribute definition at the top of your file.
-* Set the `faq` content type attribute on a new line following each H2 question.
-* Do not repeat task steps. Summarize and link off to task topic.
+The Watsonx AI SaaS deployable architecture includes all the required services to setup
+the IBM watsonx platform in an IBM Cloud account: Cloud Object Storage, Watson Studio, and Watson Machine Learning.
+It can optional install watsonx.governance, watsonx Assistant, and Watson Discovery services.
 
-## What should I include in my FAQs?
-{: #faq-content-include}
+## What is the IBM watsonx admin?
+{: #what-is-iac}
 {: faq}
 
-Each answer should be approximately one to five sentences. You want to make sure you are not re-documenting information that is already available in documentation because then you'd have to maintain it in two places. If a more detailed explanation for the question exists out in a documentation page, give a concise answer here, and then link out to the doc.
+The IBM watsonx admin is a physical user (e.g. an AI Researcher, a Data Scientist) for whom you can
+automatically setup access to the IBM watsonx platform installed using the Watsonx AI SaaS deployable architecture.
+The deployable architecture not only intalls the required services, it also creates an IBM watsonx project
+granting admin access to an IBM Cloud user. So, it setup a ready-to-use IBM watsonx platform drastically reducing
+any manual step.
 
-For detailed guidance on what to include on this page, see [FAQs guidance](/docs/developing/writing/faq.html#faqs). You can also check out some examples here: [IBM Cloud IAM FAQs](/docs/developing/Access-Management/iamfaq.html#faqs) and [Account FAQs](/docs/account/account_faq.html#accountfaqs).
+## What is an IBM watsonx project?
+{: #what-is-compatible}
+{: faq}
+
+An IBM watsonx project is a workspace on the IBM watsonx platform where you have access to various generative AI models and tools
+for your next AI project. You can find more information in the [official IBM watsonx documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/manage-projects.html?context=wx&audience=wdp).
