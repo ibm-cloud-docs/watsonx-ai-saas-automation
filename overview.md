@@ -42,4 +42,4 @@ The Watsonx AI SaaS deployable architecture performs the following steps to crea
 
 As result, the {{site.data.keyword.IBM_notm}} watsonx admin can log into the [{{site.data.keyword.IBM_notm}} watsonx platform](http://dataplatform.cloud.ibm.com/wx/home?context=wx) and start working with the starter project.
 
-The Watsonx AI SaaS deployable architecture aligns with the [VPC reference architecture for IBM Cloud for Financial Services](/docs/framework-financial-services?topic=framework-financial-services-about) security and compliance controls.
+The Watsonx AI SaaS deployable architecture aligns with the [IBM Cloud Framework for Financial Services](/docs/framework-financial-services?topic=framework-financial-services-about) security and compliance controls.
