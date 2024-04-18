@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-04-18"
 
 keywords:
 
@@ -32,4 +32,4 @@ Use these release notes to learn about the latest updates to Watsonx AI SaaS dep
 {: #subcollection-jun0124}
 {: release-note}
 
-Introducing Watsonx AI SaaS deployable architecture : One deployable architectures is released: Watsonx AI SaaS. You can use it to lay down a ready to use IBM watsonx platform in a target IBM Cloud account. For more information about using deployable architectures with projects, see the blog posts [Projects and Cost Estimation: How IBM Cloud is Revolutionizing Complex Workloads for Enterprises](https://www.ibm.com/blog/announcement/projects-and-cost-estimation/) and [Turn Your Terraform Templates into Deployable Architectures](https://www.ibm.com/blog/turn-your-terraform-templates-into-deployable-architectures/).
+Introducing Watsonx AI SaaS deployable architecture : The Watsonx AI SaaS deployable architecture can be used to create a ready to use {{site.data.keyword.IBM}} watsonx platform in a target {{site.data.keyword.Bluemix_notm}} account. For more information about using deployable architectures with projects, see [Projects and Cost Estimation: How {{site.data.keyword.Bluemix_notm}} is Revolutionizing Complex Workloads for Enterprises](https://www.ibm.com/blog/announcement/projects-and-cost-estimation/) and [Turn Your Terraform Templates into Deployable Architectures](https://www.ibm.com/blog/turn-your-terraform-templates-into-deployable-architectures/).
