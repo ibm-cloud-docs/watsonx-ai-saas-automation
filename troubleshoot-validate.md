@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-04-18"
 
 keywords: question about Watsonx AI SaaS
 
@@ -24,27 +24,26 @@ content-type: troubleshoot
 {: #troubleshoot-validate}
 {: troubleshoot}
 
-The Watsonx AI SaaS deployable architecture validation.
+You must have a successful Watsonx AI SaaS deployable architecture validation.
 {: shortdesc}
 
-The validation of a Watsonx AI SaaS deployable architecture IBM Cloud projects configuration failed.
+The validation of a Watsonx AI SaaS deployable architecture for IBM Cloud projects configuration failed.
 {: tsSymptoms}
 
-The Watsonx AI SaaS requires setting several input parameters during the configuration phase.
-Most frequent reason for failures during the validation is a bad value set for some of those parameters.
+The Watsonx AI SaaS requires setting several input parameters during the configuration phase. The most common reason for failures during the validation is because of a bad value set for some of those parameters.
 {: tsCauses}
 
-If the validation process does not finish successfully, look at the IBM Cloud projects configuration logs.
-These logs typically provide the information about the root cause of the issue.causes of the issue.
+If the validation process does not finish successfully, look at the {{site.data.keyword.Bluemix_notm}} projects configuration logs.
+These logs typically provide the information about the root cause of the issue.
 
 If you can't validate successfully, follow these steps:
 
-1.  Make sure that you comply with the prerequisites in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning)) topic.
+1.  Make sure that you completed the prerequisites in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning)) topic.
 2.  Check the values of the inputs.
+      1. From the **Configurations** tab in your project, click the name of your deployable architecture.
+      2. Click **Edit**. Review the input parameters.
+      3. Save the configuration.
+3.  Validate the configuration changes again.
 
-    From the **Configurations** tab in your project, click the name of your deployable architecture > **Edit**. Review the input parameters and
-    save the configuration.
-3.  Validate again the configuration changes.
-
-If the issue persists, [open a case](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-help-and-support) in the {{site.data.keyword.cloud_notm}} support center.
+If the issue continues, [open a case](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-help-and-support) in the {{site.data.keyword.cloud_notm}} support center.
 {: tsResolve}
