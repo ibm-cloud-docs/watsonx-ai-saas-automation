@@ -85,7 +85,7 @@ You should use {{site.data.keyword.cloud_notm}} projects as a deployment option.
 
 The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the Watsonx AI SaaS deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tooling resources within the account. Make sure you have the following access:
 
-- The Editor role on the Projects service.
+- The Editor role on the Projects service
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
 - The Viewer role on the resource group for the project
 
