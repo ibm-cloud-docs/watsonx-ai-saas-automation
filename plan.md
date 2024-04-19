@@ -96,4 +96,4 @@ For more information, see [Assigning users access to projects](/docs/secure-ente
 
 Before creating a project to manage the Watsonx AI SaaS deployable architecture, you must authorize the deployments.
 
-You can authorize the deployments by [using a deployer API key with Secrets Manager](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or [configuring a trusted profile](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the {{site.data.keyword.Bluemix_notm}} target account.
+You can authorize the deployments by [using an API key with Secrets Manager to authorize a project to deploy an architecture](/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or [configuring a trusted profile](/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the {{site.data.keyword.Bluemix_notm}} target account.
