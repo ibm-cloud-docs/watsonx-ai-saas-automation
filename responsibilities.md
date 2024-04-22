@@ -13,7 +13,7 @@ keywords:
 {{site.data.keyword.attribute-definition-list}}
 
 # Understanding your responsibilities when you use Watsonx AI SaaS
-{: #watsonx-ai-saas-responsibilities}
+{: #responsibilities}
 
 Learn about the management responsibilities and terms and conditions that you have when you use the Watsonx AI SaaS deployable architecture.
 {: shortdesc}

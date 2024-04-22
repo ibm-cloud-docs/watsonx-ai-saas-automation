@@ -24,7 +24,7 @@ The deployable architecture can help set up an {{site.data.keyword.IBM_notm}} wa
 The deployable architecture can also be used as part of a larger solution, where it is included in a stack of other components. To facilitate those business challenges, the Watsonx AI SaaS deployable architecture provides output parameters that can be used programmatically for wiring the deployable architecture to the other components of the stack, and it implements the flexibility to install additional Watson services.
 
 ## Watsonx AI SaaS deployable architecture
-{: #watsonx-ai-saas-refarch}
+{: #details}
 
 The Watsonx AI SaaS deployable architecture performs the following steps to create a ready to use {{site.data.keyword.IBM_notm}} watsonx platform in a target {{site.data.keyword.Bluemix_notm}} account, resource group, and {{site.data.keyword.Bluemix_notm}} location:
 

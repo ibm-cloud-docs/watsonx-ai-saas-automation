@@ -19,7 +19,7 @@ subcollection: watsonx-ai-saas-automation
 You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm}} catalog. You can choose from different deployment options, including an option to deploy with {{site.data.keyword.cloud_notm}} projects. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
 ## Deploying with {{site.data.keyword.cloud_notm}} projects
-{: #watsonx-ai-saas-deploy-cloud}
+{: #deploy-cloud}
 
 To deploy the Watsonx AI SaaS deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 

@@ -15,7 +15,7 @@ content-type: faq
 {{site.data.keyword.attribute-definition-list}}
 
 # FAQs for Watsonx AI SaaS deployable architecture
-{: #watsonx-ai-saas--faqs}
+{: #faqs}
 
 FAQs for Watsonx AI SaaS deployable architecture. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
 {: shortdesc}
