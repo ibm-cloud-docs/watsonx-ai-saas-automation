@@ -28,11 +28,8 @@ toc:
   - navgroup:
       id: architecture
       topics:
-      - topic-1.md
-      - topic-2.md
-      - topic: topic-3.md
-        navtitle: A shorter navtitle
-
+      - include: ../deployable-reference-architectures/terraform-ibm-watsonx-saas-da.md
+        navtitle: Watsonx SaaS with Assistant and Governance
   - navgroup:
       id: plan
       topics:
