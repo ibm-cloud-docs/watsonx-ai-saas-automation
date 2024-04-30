@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-18"
+lastupdated: "2024-04-30"
 
 keywords:
 
@@ -27,11 +27,10 @@ By using this deployable architecture, you can create and configure a set of {{s
 Make sure that you have an {{site.data.keyword.cloud_notm}} Pay-As-You-Go or Subscription account:
     - If you don't have an {{site.data.keyword.cloud_notm}} account, [create one](/docs/account?topic=account-account-getting-started).
     - If you have a Trial or Lite account, [upgrade your account](/docs/account?topic=account-upgrading-account).
-
-2.  Configure your {{site.data.keyword.cloud_notm}} target account:
+1.  Configure your {{site.data.keyword.cloud_notm}} target account:
     1.  Log in to [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com) with the {{site.data.keyword.ibmid}} you used to set up the account. This {{site.data.keyword.ibmid}} user is the account owner and has full IAM access.
-    2.  [Complete the company profile](/docs/account?topic=account-contact-info) and contact information for the account. This profile is required to stay in compliance with {{site.data.keyword.cloud_notm}} Financial Services profile.
-    3.  [Enable the Financial Services Validated option](/docs/account?topic=account-enabling-fs-validated) for your account.
+    1.  [Complete the company profile](/docs/account?topic=account-contact-info) and contact information for the account. This profile is required to stay in compliance with {{site.data.keyword.cloud_notm}} Financial Services profile.
+    1.  [Enable the Financial Services Validated option](/docs/account?topic=account-enabling-fs-validated) for your account.
 
 ## Set the IAM permissions
 {: #watsonx-ai-saas-iam-prereqs}
