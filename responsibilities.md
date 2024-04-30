@@ -35,7 +35,7 @@ Review the following sections for the specific responsibilities for you and {{si
 
 Incident and operations management includes tasks such as monitoring, event management, high availability, problem determination, recovery, and full state backup and recovery.
 
-The Watsonx AI SaaS deployable architectures do not identify additional responsibilities besides the one in the generic terms.
+The Watsonx AI SaaS deployable architectures do not identify additional responsibilities besides the ones in the generic terms.
 
 ## Change management
 {: #change-management}
@@ -51,7 +51,7 @@ If your deployable architecture does not have compute resources that customers m
 
 Change management includes tasks such as deployment, configuration, upgrades, patching, configuration changes, and deletion.
 
-The Watsonx AI SaaS deployable architectures do not identify additional responsibilities besides the one in the generic terms.
+The Watsonx AI SaaS deployable architectures do not identify additional responsibilities besides the ones in the generic terms.
 
 ## Identity and access management
 {: #iam-responsibilities}
@@ -93,4 +93,4 @@ Security and regulation compliance includes tasks such as security controls impl
 
 Disaster recovery includes tasks such as providing dependencies on disaster recovery sites, provision disaster recovery environments, data and configuration backup, replicating data and configuration to the disaster recovery environment, and failover on disaster events.
 
-The Watsonx AI SaaS deployable architectures do not identify additional responsibilities besides the one in the generic terms.
+The Watsonx AI SaaS deployable architectures do not identify additional responsibilities besides the ones in the generic terms.
