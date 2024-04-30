@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-18"
+lastupdated: "2024-04-30"
 
 keywords: question about Watsonx AI SaaS
 
@@ -20,7 +20,7 @@ content-type: troubleshoot
 
 <!-- Remember that this is the individual topic template for each troubleshooting entry that belongs in a troubleshooting topic group in the Help left nav group. For more information, see the guidance page: https://test.cloud.ibm.com/docs/writing?topic=writing-troubleshooting-topics-->
 
-# Watsonx AI SaaS validation failed, how do I proceed?
+# Why did the Watsonx AI SaaS validation fail?
 {: #troubleshoot-validate}
 {: troubleshoot}
 
