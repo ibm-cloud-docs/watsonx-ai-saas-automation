@@ -14,7 +14,7 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Watsonx AI SaaS deployment failed, how do I proceed?
+# Why did the Watsonx AI SaaS deployment fail?
 {: #troubleshoot-deploy}
 {: troubleshoot}
 
