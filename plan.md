@@ -55,19 +55,13 @@ IAM access roles are required to install this deployable architecture and create
 - Editor platform role on watsonx Assistant
 - Editor platform role on Watson Discovery
 
-It's recommended to configure these roles for the deployers access group.
-{: tip} 
-
 Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx admin in the {{site.data.keyword.Bluemix_notm}} target account:
 
 - Administrator role on All Account Management services
 - Administrator role on All Identity and Access enabled services
 
-It's recommended to configure these roles for the {{site.data.keyword.IBM_notm}} watsonx admins access group.
-{: tip} 
-
-You can setup the `deployers` and `{{site.data.keyword.IBM_notm}} watsonx admins` access groups
-via Terraform using the {{site.data.keyword.IBM_notm}}-provided [IAM Access Group Module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group).
+To set up access groups for specific users and use cases, use the [Terraform access group module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group){: external}.
+{: tip}
 
 For information about configuring permissions, contact your {{site.data.keyword.cloud_notm}} account administrator.
 
