@@ -20,7 +20,7 @@ content-type: troubleshoot
 
 <!-- Remember that this is the individual topic template for each troubleshooting entry that belongs in a troubleshooting topic group in the Help left nav group. For more information, see the guidance page: https://test.cloud.ibm.com/docs/writing?topic=writing-troubleshooting-topics-->
 
-# Watsonx AI SaaS validation failed, how do I proceed?
+# Why did my Watsonx AI SaaS validation fail?
 {: #troubleshoot-validate}
 {: troubleshoot}
 
@@ -38,7 +38,7 @@ These logs typically provide the information about the root cause of the issue.
 
 If you can't validate successfully, follow these steps:
 
-1.  Make sure that you completed the prerequisites in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning)) topic.
+1.  Make sure that you completed the prerequisites in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning) topic.
 2.  Check the values of the inputs.
       1. From the **Configurations** tab in your project, click the name of your deployable architecture.
       2. Click **Edit**. Review the input parameters.
