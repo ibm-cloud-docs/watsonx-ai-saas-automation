@@ -59,7 +59,7 @@ Security and regulation compliance includes tasks such as security controls impl
 
 | Task | {{site.data.keyword.IBM_notm}} responsibilities | Your responsibilities |
 |------|-------------------------------------------------|-----------------------|
-| Meet security and compliance objectives | Provide a deployable architecture that complies with the set of controls that are defined with the release of the deployable architecture. The controls in the deployable architecture do not necessarily cover the complete profile for the {{site.data.keyword.framework-fs_notm}}, as shown in the [Available predefined profiles](/docs/security-compliance?topic=security-compliance-predefined-profiles).
+| Meet security and compliance objectives | Provide a secure deployable architecture that complies with declared standards. For more information about data security, see [How do I know that my data is safe?](/docs/overview?topic=overview-security).
 | Verify configuration changes | | Understand the effects on the security and compliance posture of any user-initiated changes to the default configuration. Run {{site.data.keyword.compliance_long}} checks if needed to ensure that the deployable architecture remains in compliance. |
 {: row-headers}
 {: caption="Table 2. Responsibilities for security and regulation compliance" caption-side="bottom"}
