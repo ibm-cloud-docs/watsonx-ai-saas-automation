@@ -38,7 +38,7 @@ These logs typically provide the information about the root cause of the issue.
 
 If you can't validate successfully, follow these steps:
 
-1.  Make sure that you completed the prerequisites in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning)) topic.
+1.  Make sure that you completed the prerequisites in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning) topic.
 2.  Check the values of the inputs.
       1. From the **Configurations** tab in your project, click the name of your deployable architecture.
       2. Click **Edit**. Review the input parameters.
