@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-18"
+lastupdated: "2024-05-09"
 
 keywords:
 
@@ -13,10 +13,10 @@ subcollection: watsonx-ai-saas-automation
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Planning for the Watsonx AI SaaS deployable architecture
+# Planning for the watsonx AI SaaS deployable architecture
 {: #planning}
 
-By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the Watsonx AI SaaS deployable architecture. 
+By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the watsonx AI SaaS deployable architecture. 
 {: shortdesc}
 
 ## Confirm your {{site.data.keyword.cloud_notm}} target account settings
@@ -40,30 +40,20 @@ Make sure that you have an {{site.data.keyword.cloud_notm}} Pay-As-You-Go or Sub
     1.  For compliance with {{site.data.keyword.framework-fs_notm}}: Require users in your account to use [multifactor authentication (MFA)](/docs/account?topic=account-account-getting-started#account-gs-mfa).
     2.  [Set up access groups](/docs/account?topic=account-account-getting-started#account-gs-accessgroups).
 
-User access to {{site.data.keyword.cloud_notm}} resources is controlled by using the access policies that are assigned to access groups. For {{site.data.keyword.cloud_notm}} Financial Services validation, do not assign direct IAM access to any {{site.data.keyword.cloud_notm}} resources.
-
- You should set up one access group for the users that can deploy the solution, and one for the {{site.data.keyword.IBM_notm}} watsonx admins.
- {: tip}
+User access to {{site.data.keyword.cloud_notm}} resources is controlled by using the access policies that are assigned to access groups. For {{site.data.keyword.cloud_notm}} Financial Services validation, do not assign direct IAM access to any {{site.data.keyword.cloud_notm}} resources. You can set up one access group for the users that can deploy the solution, and one for the {{site.data.keyword.IBM_notm}} watsonx administrators.
 
 ### Verify access roles
 {: #watsonx-ai-saas-access-roles}
 
 IAM access roles are required to install this deployable architecture and create all the required elements in the {{site.data.keyword.Bluemix_notm}} target account:
 
-- Adminsitrator role on All Account Management services
-  - Assign this role if you must create a new resource group
+- Administrator role on All Account Management services
 - Editor platform role on Watson Machine Learning
-  - Assign this role to create and delete the service
 - Editor platform role on Watson Studio
-  - Assign this role to create and delete the service
 - Editor platform role Cloud Object Storage
-  - Assign this role to create and delete the service
 - Editor platform role on watsonx.governance
-  - Assign this role only if you must provision 
 - Editor platform role on watsonx Assistant
-  - Assign this role only if you must provision
 - Editor platform role on Watson Discovery
-  - Assign this role only if you must provision
 
 It's recommended to configure these roles for the deployers access group.
 {: tip} 
@@ -83,7 +73,7 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 You should use {{site.data.keyword.cloud_notm}} projects as a deployment option. Projects are designed with infrastructure as code and compliance in mind to help ensure that your projects are managed, secure, and always compliant. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
-The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the Watsonx AI SaaS deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tooling resources within the account. Make sure you have the following access:
+The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the watsonx AI SaaS deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tools resources within the account. Make sure that you have the following access:
 
 - The Editor role on the Projects service
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
@@ -94,6 +84,6 @@ For more information, see [Assigning users access to projects](/docs/secure-ente
 ## Setup the {{site.data.keyword.Bluemix_notm}} projects for deploying in the {{site.data.keyword.Bluemix_notm}} target account
 {: #watsonx-ai-saas-projects-prereqs}
 
-Before creating a project to manage the Watsonx AI SaaS deployable architecture, you must authorize the deployments.
+Before creating a project to manage the watsonx AI SaaS deployable architecture, you must authorize the deployment.
 
 You can authorize the deployments by [using an API key with Secrets Manager to authorize a project to deploy an architecture](/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or [configuring a trusted profile](/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the {{site.data.keyword.Bluemix_notm}} target account.
