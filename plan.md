@@ -66,6 +66,9 @@ Additional IAM access roles are required to configure the {{site.data.keyword.IB
 It's recommended to configure these roles for the {{site.data.keyword.IBM_notm}} watsonx admins access group.
 {: tip} 
 
+You can setup the `deployers` and `{{site.data.keyword.IBM_notm}} watsonx admins` access groups
+via Terraform using the {{site.data.keyword.IBM_notm}}-provided [IAM Access Group Module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group).
+
 For information about configuring permissions, contact your {{site.data.keyword.cloud_notm}} account administrator.
 
 ### Access for {{site.data.keyword.cloud_notm}} projects
