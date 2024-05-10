@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-05-09"
 
 keywords:
 
@@ -22,7 +22,13 @@ You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm
 {: #deploy-cloud}
 
 To deploy the Watsonx AI SaaS deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
-
+1.  Make sure that you comply with the prerequisites outlined in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning) topic.
+2.  From the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}, search for Watsonx AI SaaS, and click the tile for the deployable architecture.
+4.  Select the latest product version from the Architecture section.
+5.  Select a variation, if more than one is available.
+6.  Click **Add to project**.
+    1.  Name your project, enter a description, and specify a configuration name. Then, click **Create**.
+    2.  Select the region and the resource group where project artifacts must be stored.
 1.  Edit and validate the configuration:
     1.  Select your authentication method. You can use a trusted profile or an existing secret in {{site.data.keyword.secrets-manager_short}}. Alternatively, you can add your API key directly, which is not recommended. For more information, see [Using an API key or secret to authorize projects](/docs/secure-enterprise?topic=secure-enterprise-authorize-project).
     1.  Enter the name of the target resource group from the Required tab.
