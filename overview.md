@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-05-13"
 
 keywords:
 
@@ -28,7 +28,7 @@ The deployable architecture can also be used as part of a larger solution, where
 
 The Watsonx AI SaaS deployable architecture performs the following steps to create a ready to use {{site.data.keyword.IBM_notm}} watsonx platform in a target {{site.data.keyword.Bluemix_notm}} account, resource group, and {{site.data.keyword.Bluemix_notm}} location:
 
-- Creates or use an existing resource group in the target {{site.data.keyword.Bluemix_notm}} account
+- Creates or uses an existing resource group in the target {{site.data.keyword.Bluemix_notm}} account
 - Creates the following services in the target resource group and location:
   - Cloud Object Storage
   - Watson Studio
@@ -40,6 +40,6 @@ The Watsonx AI SaaS deployable architecture performs the following steps to crea
 - It creates the {{site.data.keyword.IBM_notm}} watsonx user profile for an existing user in the target {{site.data.keyword.Bluemix_notm}} account. This user is also referred as {{site.data.keyword.IBM_notm}} watsonx admin.
 - It creates a starter {{site.data.keyword.IBM_notm}} watsonx project.
 
-As result, the {{site.data.keyword.IBM_notm}} watsonx admin can log into the [{{site.data.keyword.IBM_notm}} watsonx platform](http://dataplatform.cloud.ibm.com/wx/home?context=wx) and start working with the starter {{site.data.keyword.IBM}} watsonx project.
+As result, the {{site.data.keyword.IBM_notm}} watsonx admin can log into the [{{site.data.keyword.IBM_notm}} watsonx platform](http://dataplatform.cloud.ibm.com/wx/home?context=wx){: external} and start working with the starter {{site.data.keyword.IBM}} watsonx project.
 
 The Watsonx AI SaaS deployable architecture aligns with the [IBM Cloud Framework for Financial Services](/docs/framework-financial-services?topic=framework-financial-services-about) security and compliance controls.

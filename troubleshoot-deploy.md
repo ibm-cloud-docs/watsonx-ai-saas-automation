@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-05-13"
 
 keywords: question about Watsonx AI SaaS
 
@@ -14,17 +14,17 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why did the Watsonx AI SaaS deployment fail?
+# Why did the watsonx AI SaaS deployment fail?
 {: #troubleshoot-deploy}
 {: troubleshoot}
 
-To successfully deploy the Watsonx AI SaaS deployable architecture, ensure that all the required steps are complete.
+To successfully deploy the watsonx AI SaaS deployable architecture, ensure that all the required steps are complete.
 {: shortdesc}
 
-You attempted to deploy the Watsonx AI SaaS deployable architecture in an {{site.data.keyword.Bluemix_notm}} account, but it failed.
+You attempted to deploy the Wwatsonx AI SaaS deployable architecture in an {{site.data.keyword.Bluemix_notm}} account, but it failed.
 {: tsSymptoms}
 
-The Watsonx AI SaaS installs several {{site.data.keyword.Bluemix_notm}} services and performs several configuration tasks during the deployment.
+The watsonx AI SaaS installs several {{site.data.keyword.Bluemix_notm}} services and performs several configuration tasks during the deployment.
 An issue in one of those tasks is causing the failure. For example, a lack of authorization in installing one of the services.
 {: tsCauses}
 

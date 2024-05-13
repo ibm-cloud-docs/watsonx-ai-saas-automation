@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-09"
+lastupdated: "2024-05-13"
 
 keywords:
 
@@ -12,10 +12,10 @@ subcollection: watsonx-ai-saas-automation
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting help and support for Watsonx AI SaaS
+# Getting help and support for watsonx AI SaaS
 {: #help-and-support}
 
-If you experience an issue or have questions when deploying Watsonx AI SaaS, you can use the following resources before you open a support case.
+If you experience an issue or have questions when deploying watsonx AI SaaS, you can use the following resources before you open a support case.
 {: shortdesc}
 
 * Review the [FAQs](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-faqs) in the deployment guide.

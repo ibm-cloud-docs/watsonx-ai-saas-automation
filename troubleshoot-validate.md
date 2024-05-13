@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-30"
+lastupdated: "2024-05-13"
 
 keywords: question about Watsonx AI SaaS
 
@@ -14,17 +14,17 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why did the Watsonx AI SaaS validation fail?
+# Why did the watsonx AI SaaS validation fail?
 {: #troubleshoot-validate}
 {: troubleshoot}
 
-You must have a successful Watsonx AI SaaS deployable architecture validation.
+You must have a successful watsonx AI SaaS deployable architecture validation.
 {: shortdesc}
 
-The validation of a Watsonx AI SaaS deployable architecture for IBM Cloud projects configuration failed.
+The validation of a watsonx AI SaaS deployable architecture for {{site.data.keyword.Bluemix_notm}} projects configuration failed.
 {: tsSymptoms}
 
-The Watsonx AI SaaS requires setting several input parameters during the configuration phase. The most common reason for failures during the validation is because of a bad value set for some of those parameters.
+The watsonx AI SaaS requires setting several input parameters during the configuration phase. The most common reason for failures during the validation is because of a bad value set for some of those parameters.
 {: tsCauses}
 
 If the validation process does not finish successfully, look at the {{site.data.keyword.Bluemix_notm}} projects configuration logs.
