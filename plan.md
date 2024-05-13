@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-09"
+lastupdated: "2024-05-13"
 
 keywords:
 
@@ -55,7 +55,7 @@ IAM access roles are required to install this deployable architecture and create
 - Editor platform role on watsonx Assistant
 - Editor platform role on Watson Discovery
 
-Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx admin in the {{site.data.keyword.Bluemix_notm}} target account:
+Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx administrator in the {{site.data.keyword.Bluemix_notm}} target account:
 
 - Administrator role on All Account Management services
 - Administrator role on All Identity and Access enabled services
