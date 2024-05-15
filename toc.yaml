@@ -14,7 +14,7 @@ toc:
     deployable: true
     href: /docs/watsonx-ai-saas-automation
     path: watsonx-ai-saas-automation
-    description: 128 characters or less. The description should expand upon the name, but don't add extra marketese words that inflate the length. Focus on keywords that users would be skimming and/or searching for, including any key IBM branded terms covered in the solution.
+    description: The watsonX.ai SaaS Automation with Assistant and Governance easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.
     label: watsonx AI SaaS Automation with Assistant and Governance
 
   entries:
