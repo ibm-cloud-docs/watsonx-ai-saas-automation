@@ -59,6 +59,7 @@ Additional IAM access roles are required to configure the {{site.data.keyword.IB
 
 - Administrator role on All Account Management services
 - Administrator role on All Identity and Access enabled services
+- Manager service role on Cloud Object Storage to create service credentials
 
 To set up access groups for specific users and use cases, use the [Terraform access group module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group){: external}.
 {: tip}
