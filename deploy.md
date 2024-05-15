@@ -13,7 +13,7 @@ subcollection: watsonx-ai-saas-automation
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Deploying Watsonx AI SaaS deployable architecture
+# Deploying watsonx AI SaaS deployable architecture
 {: #deploy}
 
 You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm}} catalog. You can choose from different deployment options, including an option to deploy with {{site.data.keyword.cloud_notm}} projects. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
@@ -21,9 +21,9 @@ You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm
 ## Deploying with {{site.data.keyword.cloud_notm}} projects
 {: #deploy-cloud}
 
-To deploy the Watsonx AI SaaS deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
+To deploy the watsonx AI SaaS deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 1.  Make sure that you comply with the prerequisites outlined in the [planning](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning) topic.
-2.  From the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}, search for Watsonx AI SaaS, and click the tile for the deployable architecture.
+2.  From the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}, search for watsonx AI SaaS, and click the tile for the deployable architecture.
 4.  Select the latest product version from the Architecture section.
 5.  Select a variation, if more than one is available.
 6.  Click **Add to project**.
