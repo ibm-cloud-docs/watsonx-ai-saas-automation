@@ -20,8 +20,8 @@ If you experience an issue or have questions when deploying watsonx AI SaaS, you
 {: shortdesc}
 
 * Review the [FAQs](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-faqs) in the deployment guide.
-* Review the [troubleshooting documentation](docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-troubleshoot) to troubleshoot and resolve common issues.
-* ![{{site.data.keyword.cloud_notm}} icon](images/ibm-cloud-16.svg "IBM Cloud icon") Check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
+* Review the [troubleshooting documentation](docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-ts-na-failures) to troubleshoot and resolve common issues.
+* ![{{site.data.keyword.cloud_notm}} icon](../icons/ibm-cloud-16.svg "IBM Cloud icon") Check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 * ![GitHub icon](../icons/logo-github-16.svg "GitHub icon") Review the [GitHub issues](https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da/issues){: external} to see whether other users experienced the same problem.
 
 If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
