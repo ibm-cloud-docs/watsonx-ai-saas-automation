@@ -60,7 +60,7 @@ Additional IAM access roles are required to configure the {{site.data.keyword.IB
 
 - Administrator role on All Account Management services
 - Administrator role on All Identity and Access enabled services
-- Manager service role on Cloud Object Storage to create service credentials. That is not needed if you enable storage delegation for the Cloud Object Storage instance provisioned with the watsonx AI SaaS deployable architecture.
+- Manager service role on Cloud Object Storage to create service credentials. This is not needed if you enable storage delegation for the Cloud Object Storage instance provisioned with the watsonx AI SaaS deployable architecture.
 
 To set up access groups for specific users and use cases, use the [Terraform access group module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group){: external}.
 {: tip}
