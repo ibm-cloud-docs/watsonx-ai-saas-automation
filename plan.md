@@ -54,12 +54,13 @@ IAM access roles are required to install this deployable architecture and create
 - Editor platform role on watsonx.governance
 - Editor platform role on watsonx Assistant
 - Editor platform role on Watson Discovery
+- Manager service role on the {{site.data.keyword.IBM_notm}} Key Protect instance if you want to enable storage delegation for the Cloud Object Storage instance provisioned with the watsonx AI SaaS deployable architecture.
 
 Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx administrator in the {{site.data.keyword.Bluemix_notm}} target account:
 
 - Administrator role on All Account Management services
 - Administrator role on All Identity and Access enabled services
-- Manager service role on Cloud Object Storage to create service credentials
+- Manager service role on Cloud Object Storage to create service credentials. That is not needed if you enable storage delegation for the Cloud Object Storage instance provisioned with the watsonx AI SaaS deployable architecture.
 
 To set up access groups for specific users and use cases, use the [Terraform access group module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group){: external}.
 {: tip}
