@@ -38,6 +38,8 @@ The watsonx AI SaaS deployable architecture performs the following steps to crea
   - watsonx Assistant
   - Watson Discovery
 - It creates the {{site.data.keyword.IBM_notm}} watsonx user profile for an existing user in the target {{site.data.keyword.Bluemix_notm}} account. This user is also referred as {{site.data.keyword.IBM_notm}} watsonx admin.
+- If you provided the CRN of an {{site.data.keyword.IBM_notm}} Key Protect instance in the same target account and location of the watsonx services, then it enables
+  storage delegation for the Cloud Object Storage instance.
 - It creates a starter {{site.data.keyword.IBM_notm}} watsonx project.
 
 As result, the {{site.data.keyword.IBM_notm}} watsonx admin can log into the [{{site.data.keyword.IBM_notm}} watsonx platform](http://dataplatform.cloud.ibm.com/wx/home?context=wx){: external} and start working with the starter {{site.data.keyword.IBM}} watsonx project.

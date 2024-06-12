@@ -37,12 +37,15 @@ To deploy the watsonx AI SaaS deployable architecture through the {{site.data.ke
         2.  The service plan for the required services.
         3.  The service plan for the optional services. The default is "do not install".
         4.  Whether the target resource group exists already, or it must be created.
-    1.  From the Optional tab, enter a value or accept the default for the following options:
+    2.  From the Optional tab, enter a value or accept the default for the following options:
         1.  The resource prefix for uniquely naming the services that are being provisioned.
         2.  The {{site.data.keyword.IBM_notm}} watsonx admin api key. It is recommended to store the api key in advance in Secrets Manager that's integrated with the {{site.data.keyword.cloud_notm}} projects and reference it from there.
         3.  The name of the {{site.data.keyword.IBM_notm}} Watsonx starter project.
-    1.  Save the configuration.
-    1.  Click **Validate**. Validation takes a few minutes.
+    3.  From the Optional tab, if you want to enable storage delegation for the Cloud Object Storage instance using an
+        {{site.data.keyword.IBM_notm}} Key Protect encryption key, then set at least the CRN of the {{site.data.keyword.IBM_notm}} Key Protect instance
+        to use. You can provide the CRN of the encryption key as well, or let the automation creating one for you.
+    4.  Save the configuration.
+    5.  Click **Validate**. Validation takes a few minutes.
 
         {{site.data.keyword.cloud_notm}} projects runs an SCC scan against the {{site.data.keyword.cloud_notm}} for Financal Services profile. Controls that are part of the deployable architecture and that are also supported by {{site.data.keyword.cloud_notm}} projects are checked. Any extra controls that are not included in the list of supported {{site.data.keyword.compliance_short}} rules are not checked when you validate the configuration.
 {: important}
@@ -50,9 +53,9 @@ To deploy the watsonx AI SaaS deployable architecture through the {{site.data.ke
 1.  Deploy the configuration. After you validate your configuration, you can deploy it to your target account:
 
     1.  Review the input values and make any necessary changes.
-    1.  Click **Deploy**. Deploying the deployable architecture can take a few minutes. You are notified when the deployment is successful.
+    2.  Click **Deploy**. Deploying the deployable architecture can take a few minutes. You are notified when the deployment is successful.
 
-1.  Review the outputs from the deployable architecture.
+2.  Review the outputs from the deployable architecture.
 
 During the validation and deployment process, monitor the [needs attention items](/docs/secure-enterprise?topic=secure-enterprise-needs-attention-projects). The widget reflects any issue that occurs in your configurations.
 {: remember}
