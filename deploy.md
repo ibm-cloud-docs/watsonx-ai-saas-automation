@@ -41,7 +41,7 @@ To deploy the watsonx AI SaaS deployable architecture through the {{site.data.ke
         1.  The resource prefix for uniquely naming the services that are being provisioned.
         2.  The {{site.data.keyword.IBM_notm}} watsonx admin api key. It is recommended to store the api key in advance in Secrets Manager that's integrated with the {{site.data.keyword.cloud_notm}} projects and reference it from there.
         3.  The name of the {{site.data.keyword.IBM_notm}} Watsonx starter project.
-    3.  From the Optional tab, if you want to enable storage delegation for the Cloud Object Storage instance using an
+    3.  From the Optional tab, if you want to enable storage delegation for the Cloud Object Storage instance using a
         {{site.data.keyword.IBM_notm}} Key Protect encryption key, then set at least the CRN of the {{site.data.keyword.IBM_notm}} Key Protect instance
         to use. You can provide the CRN of the encryption key as well, or let the automation creating one for you.
     4.  Save the configuration.
