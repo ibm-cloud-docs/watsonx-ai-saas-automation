@@ -16,7 +16,6 @@ toc:
     path: watsonx-ai-saas-automation
     description: The watsonX.ai SaaS Automation with Assistant and Governance easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.
     label: watsonx AI SaaS Automation with Assistant and Governance
-  
   entries:
   - navgroup:
       id: overview
@@ -24,28 +23,23 @@ toc:
       - overview.md
       - topic: release-notes.md
         navtitle: Release notes
-
   - navgroup:
       id: architecture
       topics:
       - include: ../deployable-reference-architectures/terraform-ibm-watsonx-saas-da/watsonx-saas-da.md
         navtitle: watsonx SaaS with Assistant and Governance
-
   - navgroup:
       id: plan
       topics:
       - plan.md
-
   - navgroup:
       id: deploy
       topics:
       - deploy.md
-
   - navgroup:
       id: reference
       topics:
       - responsibilities.md
-
   - navgroup:
       id: help
       topics:
