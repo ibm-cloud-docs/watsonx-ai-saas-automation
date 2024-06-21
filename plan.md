@@ -51,6 +51,7 @@ IAM access roles are required to install this deployable architecture and create
 - Editor platform role on Watson Machine Learning
 - Editor platform role on Watson Studio
 - Editor platform role Cloud Object Storage
+- Editor platform role on watsonx.data
 - Editor platform role on watsonx.governance
 - Editor platform role on watsonx Assistant
 - Editor platform role on Watson Discovery
