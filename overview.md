@@ -34,7 +34,8 @@ The watsonx AI SaaS deployable architecture performs the following steps to crea
   - Watson Studio
   - Watson Machine Learning
 - Optionally, it can create one or more of the following services in the target resource group and location:
-  - watsonx.governance service in the target resource group and location
+  - watsonx.data
+  - watsonx.governance
   - watsonx Assistant
   - Watson Discovery
 - It creates the {{site.data.keyword.IBM_notm}} watsonx user profile for an existing user in the target {{site.data.keyword.Bluemix_notm}} account. This user is also referred as {{site.data.keyword.IBM_notm}} watsonx admin.
