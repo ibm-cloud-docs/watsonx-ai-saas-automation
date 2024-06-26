@@ -4,7 +4,7 @@ copyright:
   years: 2024
 lastupdated: "2024-05-13"
 
-keywords: question about Watsonx AI SaaS
+keywords: question about Watsonx.ai SaaS with Assistant and Governance
 
 subcollection: watsonx-ai-saas-automation
 
@@ -14,17 +14,17 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why did the watsonx AI SaaS deployment fail?
+# Why did the Watsonx.ai SaaS with Assistant and Governance deployment fail?
 {: #troubleshoot-deploy}
 {: troubleshoot}
 
-To successfully deploy the watsonx AI SaaS deployable architecture, ensure that all the required steps are complete.
+To successfully deploy the Watsonx.ai SaaS with Assistant and Governance deployable architecture, ensure that all the required steps are complete.
 {: shortdesc}
 
-You attempted to deploy the Wwatsonx AI SaaS deployable architecture in an {{site.data.keyword.Bluemix_notm}} account, but it failed.
+You attempted to deploy the WWatsonx.ai SaaS with Assistant and Governance deployable architecture in an {{site.data.keyword.Bluemix_notm}} account, but it failed.
 {: tsSymptoms}
 
-The watsonx AI SaaS installs several {{site.data.keyword.Bluemix_notm}} services and performs several configuration tasks during the deployment.
+The Watsonx.ai SaaS with Assistant and Governance installs several {{site.data.keyword.Bluemix_notm}} services and performs several configuration tasks during the deployment.
 An issue in one of those tasks is causing the failure. For example, a lack of authorization in installing one of the services.
 {: tsCauses}
 
