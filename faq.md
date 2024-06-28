@@ -14,23 +14,23 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs for Watsonx AI SaaS deployable architecture
+# FAQs for Watsonx.ai SaaS with Assistant and Governance deployable architecture
 {: #faqs}
 
-Review the FAQs for watsonx AI SaaS deployable architecture. To view all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
+Review the FAQs for Watsonx.ai SaaS with Assistant and Governance deployable architecture. To view all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
 {: shortdesc}
 
-## What is the content of watsonx AI SaaS deployable architecture?
+## What is the content of Watsonx.ai SaaS with Assistant and Governance deployable architecture?
 {: #what-is-da}
 {: faq}
 
-The watsonx AI SaaS deployable architecture includes all the required services to setup the {{site.data.keyword.IBM_notm}} watsonx platform in an {{site.data.keyword.Bluemix_notm}} account. The required services include Cloud Object Storage, Watson Studio, and Watson Machine Learning. It can optionally install watsonx.governance, watsonx Assistant, and Watson Discovery services.
+The Watsonx.ai SaaS with Assistant and Governance deployable architecture includes all the required services to setup the {{site.data.keyword.IBM_notm}} watsonx platform in an {{site.data.keyword.Bluemix_notm}} account. The required services include Cloud Object Storage, Watson Studio, and Watson Machine Learning. It can optionally install watsonx.governance, watsonx Assistant, and Watson Discovery services.
 
 ## What is the {{site.data.keyword.IBM_notm}} watsonx admin?
 {: #what-is-iac}
 {: faq}
 
-The {{site.data.keyword.Bluemix_notm}} watsonx admin is a physical user, for example, an AI Researcher or Data Scientist. You can automatically setup access to the {{site.data.keyword.IBM_notm}} watsonx platform that's installed using the watsonx AI SaaS deployable architecture for this user. The deployable architecture not only intalls the required services, it also creates an {{site.data.keyword.IBM_notm}} watsonx project granting admin access to an {{site.data.keyword.Bluemix_notm}} user. So, it setup a ready-to-use {{site.data.keyword.Bluemix_notm}} watsonx platform drastically reducing any manual steps.
+The {{site.data.keyword.Bluemix_notm}} watsonx admin is a physical user, for example, an AI Researcher or Data Scientist. You can automatically setup access to the {{site.data.keyword.IBM_notm}} watsonx platform that's installed using the Watsonx.ai SaaS with Assistant and Governance deployable architecture for this user. The deployable architecture not only intalls the required services, it also creates an {{site.data.keyword.IBM_notm}} watsonx project granting admin access to an {{site.data.keyword.Bluemix_notm}} user. So, it setup a ready-to-use {{site.data.keyword.Bluemix_notm}} watsonx platform drastically reducing any manual steps.
 
 ## What is an {{site.data.keyword.IBM_notm}} watsonx project?
 {: #what-is-compatible}

@@ -13,10 +13,10 @@ subcollection: watsonx-ai-saas-automation
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting help and support for watsonx AI SaaS
+# Getting help and support for Watsonx.ai SaaS with Assistant and Governance
 {: #help-and-support}
 
-If you experience an issue or have questions when deploying watsonx AI SaaS, you can use the following resources before you open a support case.
+If you experience an issue or have questions when deploying Watsonx.ai SaaS with Assistant and Governance, you can use the following resources before you open a support case.
 {: shortdesc}
 
 * Review the [FAQs](/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-faqs) in the deployment guide.

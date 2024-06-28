@@ -13,10 +13,10 @@ subcollection: watsonx-ai-saas-automation
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Planning for the watsonx AI SaaS deployable architecture
+# Planning for the Watsonx.ai SaaS with Assistant and Governance deployable architecture
 {: #planning}
 
-By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the watsonx AI SaaS deployable architecture. 
+By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the Watsonx.ai SaaS with Assistant and Governance deployable architecture. 
 {: shortdesc}
 
 ## Confirm your {{site.data.keyword.cloud_notm}} target account settings
@@ -55,13 +55,13 @@ IAM access roles are required to install this deployable architecture and create
 - Editor platform role on watsonx.governance
 - Editor platform role on watsonx Assistant
 - Editor platform role on Watson Discovery
-- Manager service role on the {{site.data.keyword.IBM_notm}} Key Protect instance if you want to enable storage delegation for the Cloud Object Storage instance provisioned with the watsonx AI SaaS deployable architecture.
+- Manager service role on the {{site.data.keyword.IBM_notm}} Key Protect instance if you want to enable storage delegation for the Cloud Object Storage instance provisioned with the Watsonx.ai SaaS with Assistant and Governance deployable architecture.
 
 Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx administrator in the {{site.data.keyword.Bluemix_notm}} target account:
 
 - Administrator role on All Account Management services
 - Administrator role on All Identity and Access enabled services
-- Manager service role on Cloud Object Storage to create service credentials. This is not needed if you enable storage delegation for the Cloud Object Storage instance provisioned with the watsonx AI SaaS deployable architecture.
+- Manager service role on Cloud Object Storage to create service credentials. This is not needed if you enable storage delegation for the Cloud Object Storage instance provisioned with the Watsonx.ai SaaS with Assistant and Governance deployable architecture.
 
 To set up access groups for specific users and use cases, use the [Terraform access group module](https://github.com/terraform-ibm-modules/terraform-ibm-iam-access-group){: external}.
 {: tip}
@@ -73,7 +73,7 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 You should use {{site.data.keyword.cloud_notm}} projects as a deployment option. Projects are designed with infrastructure as code and compliance in mind to help ensure that your projects are managed, secure, and always compliant. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
-The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the watsonx AI SaaS deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tools resources within the account. Make sure that you have the following access:
+The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the Watsonx.ai SaaS with Assistant and Governance deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tools resources within the account. Make sure that you have the following access:
 
 - The Editor role on the Projects service
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
@@ -84,6 +84,6 @@ For more information, see [Assigning users access to projects](/docs/secure-ente
 ## Setup the {{site.data.keyword.Bluemix_notm}} projects for deploying in the {{site.data.keyword.Bluemix_notm}} target account
 {: #watsonx-ai-saas-projects-prereqs}
 
-Before creating a project to manage the watsonx AI SaaS deployable architecture, you must authorize the deployment.
+Before creating a project to manage the Watsonx.ai SaaS with Assistant and Governance deployable architecture, you must authorize the deployment.
 
 You can authorize the deployments by [using an API key with Secrets Manager to authorize a project to deploy an architecture](/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or [configuring a trusted profile](/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the {{site.data.keyword.Bluemix_notm}} target account.
