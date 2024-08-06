@@ -20,6 +20,25 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Watsonx.ai SaaS with Assistant and Governance deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## August 2024
+{: #subcollection-aug2024}
+
+### 03 August 2024
+{: #subcollection-03aug2024}
+{: release-note}
+
+Version 1.4.2 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture available
+:   Version 1.4.2 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture is available in the {{site.data.keyword.cloud_notm}} catalog. This version includes bug fixing and dependencies updates.
+For the complete list of changes in the release, see the [release notes](https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da/releases/tag/v1.4.2){: external} on GitHub.
+
+### 02 August 2024
+{: #subcollection-02aug2024}
+{: release-note}
+
+Version 1.4.0 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture available
+:   Version 1.4.0 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture is available in the {{site.data.keyword.cloud_notm}} catalog. This version allows referencing existing service instances instead of provisioning new ones.
+For the complete list of changes in the release, see the [release notes](https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da/releases/tag/v1.4.0){: external} on GitHub.
+
 ## July 2024
 {: #subcollection-jul2024}
 
@@ -28,7 +47,7 @@ Use these release notes to learn about the latest updates to Watsonx.ai SaaS wit
 {: release-note}
 
 Version 1.3.6 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture available
-:   Version 1.3.6 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture is available in the {{site.data.keyword.cloud_notm}} catalog. This version include bug fixing and dependencies updates.
+:   Version 1.3.6 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture is available in the {{site.data.keyword.cloud_notm}} catalog. This version includes bug fixing and dependencies updates.
 For the complete list of changes in the release, see the [release notes](https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da/releases/tag/v1.3.6){: external} on GitHub.
 
 ## June 2024
