@@ -36,7 +36,8 @@ To deploy the Watsonx.ai SaaS with Assistant and Governance deployable architect
         1.  The target location for the servies being deployed.
         2.  The service plan for the required services.
         3.  The service plan for the optional services. The default is "do not install".
-        4.  Whether the target resource group exists already, or it must be created.
+        4.  The existing service CRN if you don't want to install a service, but using an existing one. The default is to deploy a new instance or do not deploy the service at all, depending on the value you selected for the service plan.
+        5.  Whether the target resource group exists already, or it must be created.
     2.  From the Optional tab, enter a value or accept the default for the following options:
         1.  The resource prefix for uniquely naming the services that are being provisioned.
         2.  The {{site.data.keyword.IBM_notm}} watsonx admin api key. It is recommended to store the api key in advance in Secrets Manager that's integrated with the {{site.data.keyword.cloud_notm}} projects and reference it from there.
