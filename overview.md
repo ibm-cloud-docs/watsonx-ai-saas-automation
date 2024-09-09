@@ -38,6 +38,7 @@ The Watsonx.ai SaaS with Assistant and Governance deployable architecture perfor
   - watsonx.governance
   - watsonx Assistant
   - Watson Discovery
+  - watsonx Orchestrate
 - It creates the {{site.data.keyword.IBM_notm}} watsonx user profile for an existing user in the target {{site.data.keyword.Bluemix_notm}} account. This user is also referred as {{site.data.keyword.IBM_notm}} watsonx admin.
 - If you provided the CRN of a {{site.data.keyword.IBM_notm}} Key Protect instance in the same target account and location of the watsonx services, then it enables
   storage delegation for the Cloud Object Storage instance.

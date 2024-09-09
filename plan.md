@@ -55,6 +55,7 @@ IAM access roles are required to install this deployable architecture and create
 - Editor platform role on watsonx.governance
 - Editor platform role on watsonx Assistant
 - Editor platform role on Watson Discovery
+- Editor platform role on watsonx Orchestrate
 - Manager service role on the {{site.data.keyword.IBM_notm}} Key Protect instance if you want to enable storage delegation for the Cloud Object Storage instance provisioned with the Watsonx.ai SaaS with Assistant and Governance deployable architecture.
 
 Additional IAM access roles are required to configure the {{site.data.keyword.IBM_notm}} watsonx administrator in the {{site.data.keyword.Bluemix_notm}} target account:
