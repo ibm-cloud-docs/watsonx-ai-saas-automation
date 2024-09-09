@@ -20,6 +20,17 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Watsonx.ai SaaS with Assistant and Governance deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## September 2024
+{: #subcollection-sep2024}
+
+### 09 September 2024
+{: #subcollection-09sep2024}
+{: release-note}
+
+Version 1.5.0 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture available
+:   Version 1.5.0 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture is available in the {{site.data.keyword.cloud_notm}} catalog. This version adds support for `watsonx Orchestrate` deployment.
+For the complete list of changes in the release, see the [release notes](https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da/releases/tag/v1.5.0){: external} on GitHub.
+
 ## August 2024
 {: #subcollection-aug2024}
 
