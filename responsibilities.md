@@ -49,7 +49,7 @@ Identity and access management includes tasks such as authentication, authorizat
 | Secure with least privilege | Document the minimal IAM access requirements to run the deployable architecture. |  |
 | Manage secrets | | * Generate the necessary secrets (IAM API keys) and configure trusted profiles that are required for the deployable architecture. \n * Manage generated secrets by following secure best practices. |
 {: row-headers}
-{: caption="Table 1. Responsibilities for identity and access management" caption-side="bottom"}
+{: caption="Responsibilities for identity and access management" caption-side="bottom"}
 {: summary="The rows are read from left to right. The first column describes the task that the customer or IBM might be responsible for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
 
 ## Security and regulation compliance
@@ -62,7 +62,7 @@ Security and regulation compliance includes tasks such as security controls impl
 | Meet security and compliance objectives | Provide a secure deployable architecture that complies with declared standards. For more information about data security, see [How do I know that my data is safe?](/docs/overview?topic=overview-security).
 | Verify configuration changes | | Understand the effects on the security and compliance posture of any user-initiated changes to the default configuration. Run {{site.data.keyword.compliance_long}} checks if needed to ensure that the deployable architecture remains in compliance. |
 {: row-headers}
-{: caption="Table 2. Responsibilities for security and regulation compliance" caption-side="bottom"}
+{: caption="Responsibilities for security and regulation compliance" caption-side="bottom"}
 {: summary="The rows are read from left to right. The first column describes the task that the customer or IBM might be responsible for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
 
 ## Disaster recovery
