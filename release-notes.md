@@ -20,6 +20,20 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Watsonx.ai SaaS with Assistant and Governance deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## September 2025
+{: #subcollection-sep2025}
+
+### 8 September 2025
+{: #subcollection-8sep2025}
+{: release-note}
+
+Version 1.9.38 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture available
+:   Version 1.9.38 of the Watsonx.ai SaaS with Assistant and Governance deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - The default value of `enable_cos_kms_encryption` is now false.
+    - The IBM terraform provider has been updated to version 1.80.0.
+    - Updated all dependant modules to their the latest versions.
+
 ## January 2025
 {: #subcollection-jan2025}
 
