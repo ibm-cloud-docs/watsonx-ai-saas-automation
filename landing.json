@@ -1,7 +1,7 @@
 {
     "version": 2,
-    "title": "Watsonx.ai SaaS with Assistant and Governance automation",
-    "introduction": "The Watsonx.ai SaaS with Assistant and Governance deployable architecture automates the deployment and setup of the IBM® watsonx platform in an IBM Cloud account. The IBM watsonx platform is made of several services working together to offer AI capabilities to end users, who can explore them using IBM watsonx projects.",
+    "title": "Cloud foundation for AI ops and governance with watsonx",
+    "introduction": "The Cloud foundation for AI ops and governance with watsonx deployable architecture automates the deployment and setup of the IBM® watsonx platform in an IBM Cloud account. The IBM watsonx platform is made of several services working together to offer AI capabilities to end users, who can explore them using IBM watsonx projects.",
     "deployment_url": "https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-watsonx-ai-saas-e8ad6597-8c1a-466a-8bb7-243a109daaa8-global",
     "section_topics": {
       "links": [
@@ -10,15 +10,15 @@
           "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-overview"
         },
         {
-          "title": "Planning for the Watsonx.ai SaaS with Assistant and Governance deployable architecture",
+          "title": "Planning for the Cloud foundation for AI ops and governance with watsonx deployable architecture",
           "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning"
         },
         {
-          "title": "Deploying Watsonx.ai SaaS with Assistant and Governance deployable architecture",
+          "title": "Deploying Cloud foundation for AI ops and governance with watsonx deployable architecture",
           "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-deploy"
         },
         {
-          "title": "Understanding your responsibilities when you use watsonx AI SaaS",
+          "title": "Understanding your responsibilities when you use Cloud foundation for AI ops and governance with watsonx",
           "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-responsibilities"
         },
         {
@@ -29,7 +29,7 @@
     },
     "section_architectures": [
       {
-        "title": "Watsonx.ai SaaS with Assistant and Governance",
+        "title": "Cloud foundation for AI ops and governance with watsonx",
         "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-watsonx-ai-reference-architecture",
         "deployable": true
       }

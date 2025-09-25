@@ -13,10 +13,10 @@ subcollection: watsonx-ai-saas-automation
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Planning for the Watsonx.ai SaaS with Assistant and Governance deployable architecture
+# Planning for the Cloud foundation for AI ops and governance with watsonx deployable architecture
 {: #planning}
 
-By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the Watsonx.ai SaaS with Assistant and Governance deployable architecture. 
+By using this deployable architecture, you can create and configure a set of {{site.data.keyword.Bluemix_notm}} services in an {{site.data.keyword.Bluemix_notm}} target account. You can configure access to the {{site.data.keyword.IBM_notm}} watsonx platform for an existing user that's invited in the target account, also known as the {{site.data.keyword.IBM_notm}} watsonx admin. Then, use {{site.data.keyword.Bluemix_notm}} projects as the deployment tool. Complete the following steps before you deploy the Cloud foundation for AI ops and governance with watsonx deployable architecture. 
 {: shortdesc}
 
 ## Confirm your {{site.data.keyword.cloud_notm}} target account settings
@@ -74,7 +74,7 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 You should use {{site.data.keyword.cloud_notm}} projects as a deployment option. Projects are designed with infrastructure as code and compliance in mind to help ensure that your projects are managed, secure, and always compliant. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
-The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the Watsonx.ai SaaS with Assistant and Governance deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tools resources within the account. Make sure that you have the following access:
+The {{site.data.keyword.Bluemix_notm}} account where your project is located might be different than the {{site.data.keyword.Bluemix_notm}} target account where you are going to install the Cloud foundation for AI ops and governance with watsonx deployable architecture. The following information refers to the permissions you must have in the project account to create a project and create project tools resources within the account. Make sure that you have the following access:
 
 - The Editor role on the Projects service
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
@@ -85,6 +85,6 @@ For more information, see [Assigning users access to projects](/docs/secure-ente
 ## Setup the {{site.data.keyword.Bluemix_notm}} projects for deploying in the {{site.data.keyword.Bluemix_notm}} target account
 {: #watsonx-ai-saas-projects-prereqs}
 
-Before creating a project to manage the Watsonx.ai SaaS with Assistant and Governance deployable architecture, you must authorize the deployment.
+Before creating a project to manage the Cloud foundation for AI ops and governance with watsonx deployable architecture, you must authorize the deployment.
 
 You can authorize the deployments by [using an API key with Secrets Manager to authorize a project to deploy an architecture](/docs/secure-enterprise?topic=secure-enterprise-authorize-project&interface=ui) or [configuring a trusted profile](/docs/secure-enterprise?topic=secure-enterprise-tp-project&interface=ui) with the {{site.data.keyword.Bluemix_notm}} target account.
