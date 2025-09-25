@@ -14,8 +14,8 @@ toc:
     deployable: true
     href: /docs/watsonx-ai-saas-automation
     path: watsonx-ai-saas-automation
-    description: The watsonX.ai SaaS with Assistant and Governance automation easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.
-    label: Watsonx.ai SaaS with Assistant and Governance automation
+    description: The Cloud foundation for AI ops and governance with watsonx automation easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.
+    label: Cloud foundation for AI ops and governance with watsonx automation
   entries:
   - navgroup:
       id: overview
@@ -27,7 +27,7 @@ toc:
       id: architecture
       topics:
       - include: ../deployable-reference-architectures/terraform-ibm-watsonx-saas-da/watsonx-saas-da.md
-        navtitle: watsonx SaaS with Assistant and Governance
+        navtitle: Cloud foundation for AI ops and governance with watsonx
   - navgroup:
       id: plan
       topics:
