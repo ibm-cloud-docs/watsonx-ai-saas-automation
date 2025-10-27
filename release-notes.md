@@ -20,6 +20,21 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Cloud foundation for AI ops and governance with watsonx deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## October 2025
+{: #subcollection-oct2025}
+
+### 27 October 2025
+{: #subcollection-27oct2025}
+{: release-note}
+
+Version 1.12.0 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 1.12.0 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - Support added to use an existing Object Storage instance using new input `existing_cos_instance_crn`.
+    - Support added for `ca-tor` and `au-syd` regions.
+    - Updated the supported input values for `watsonx_orchestrate_plan`.
+    - Real time validation has been added to the Projects user interface for inputs.
+
 ## September 2025
 {: #subcollection-sep2025}
 
