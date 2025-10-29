@@ -1,40 +1,40 @@
 {
-    "version": 2,
-    "title": "Cloud foundation for AI ops and governance with watsonx",
-    "introduction": "The Cloud foundation for AI ops and governance with watsonx deployable architecture automates the deployment and setup of the IBM® watsonx platform in an IBM Cloud account. The IBM watsonx platform is made of several services working together to offer AI capabilities to end users, who can explore them using IBM watsonx projects.",
-    "deployment_url": "https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-watsonx-ai-saas-e8ad6597-8c1a-466a-8bb7-243a109daaa8-global",
-    "section_topics": {
-      "links": [
-        {
-          "title": "Overview",
-          "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-overview"
-        },
-        {
-          "title": "Planning for the Cloud foundation for AI ops and governance with watsonx deployable architecture",
-          "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning"
-        },
-        {
-          "title": "Deploying Cloud foundation for AI ops and governance with watsonx deployable architecture",
-          "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-deploy"
-        },
-        {
-          "title": "Understanding your responsibilities when you use Cloud foundation for AI ops and governance with watsonx",
-          "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-responsibilities"
-        },
-        {
-          "title": "FAQ",
-          "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-faqs"
-        }
-      ]
-    },
-    "section_architectures": [
+  "version": 2,
+  "title": "Cloud foundation for AI ops and governance with watsonx",
+  "introduction": "The Cloud foundation for AI ops and governance with watsonx deployable architecture automates the deployment and setup of the IBM\u00ae watsonx platform in an IBM Cloud account. The IBM watsonx platform is made of several services working together to offer AI capabilities to end users, who can explore them using IBM watsonx projects.",
+  "deployment_url": "https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-watsonx-ai-saas-e8ad6597-8c1a-466a-8bb7-243a109daaa8-global",
+  "section_topics": {
+    "links": [
       {
-        "title": "Cloud foundation for AI ops and governance with watsonx",
-        "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-watsonx-ai-reference-architecture",
-        "deployable": true
+        "title": "Overview",
+        "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-overview"
+      },
+      {
+        "title": "Planning for the Cloud foundation for AI ops and governance with watsonx deployable architecture",
+        "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-planning"
+      },
+      {
+        "title": "Deploying Cloud foundation for AI ops and governance with watsonx deployable architecture",
+        "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-deploy"
+      },
+      {
+        "title": "Understanding your responsibilities when you use Cloud foundation for AI ops and governance with watsonx",
+        "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-responsibilities"
+      },
+      {
+        "title": "FAQ",
+        "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-faqs"
       }
-    ],
-    "section_updates": {
-      "view_more": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-release-notes"
+    ]
+  },
+  "section_architectures": [
+    {
+      "title": "Cloud foundation for AI ops and governance with watsonx",
+      "href": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-watsonx-ai-reference-architecture",
+      "deployable": true
     }
+  ],
+  "section_updates": {
+    "view_more": "/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-release-notes"
   }
+}
