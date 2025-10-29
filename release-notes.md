@@ -23,6 +23,23 @@ Use these release notes to learn about the latest updates to Cloud foundation fo
 ## October 2025
 {: #subcollection-oct2025}
 
+### 29 October 2025
+{: #subcollection-29oct2025}
+{: release-note}
+
+Version 2.0.0 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 2.0.0 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    Support has been removed to create a new resource group. The `use_existing_resource_group` and `resource_group_name` inputs have been replace by a single input `existing_resource_group_name`.
+    {: important}
+
+    - The following inputs have been renamed:
+        - location` -> `region`
+        - `resource_prefix` -> `prefix`
+    - `Premium` plan support for Watson Discovery has been removed.
+    - `Trial` and `Enterprise with data isolation` plan support for WatsonX Assistant has been removed.
+    - The default value of the `cos_kms_new_key_name` has been updated to "wx-saas-da-key".
+
 ### 27 October 2025
 {: #subcollection-27oct2025}
 {: release-note}
