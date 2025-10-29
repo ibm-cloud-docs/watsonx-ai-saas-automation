@@ -34,7 +34,7 @@ Version 2.0.0 of the Cloud foundation for AI ops and governance with watsonx dep
     {: important}
 
     - The following inputs have been renamed:
-        - location` -> `region`
+        - `location` -> `region`
         - `resource_prefix` -> `prefix`
     - `Premium` plan support for Watson Discovery has been removed.
     - `Trial` and `Enterprise with data isolation` plan support for WatsonX Assistant has been removed.
