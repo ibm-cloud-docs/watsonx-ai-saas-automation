@@ -61,7 +61,6 @@ Version 1.9.2 of the Cloud foundation for AI ops and governance with watsonx dep
 
     - Fixed bug where incorrect api endpoint was being used for the `eu-gb` region.
     - Update the scope of the KMS auth policy so that it is now scoped to the exact KMS key. Updating to this version from a previous version will see the destroy and recreate of the auh policy, however the new policy will be created before the old one so there will be no disruption to every day serivces during upgrade.
-    - Controls in the {{site.data.keyword.compliance_long}} Framework for Financial Services profile version 1.7.0 that pass validation are now displayed.
     - Exposed the ability to set the `provider_visibility`. The default value is now `private`. [Learn more](https://registry.terraform.io/providers/IBM-Cloud/IBM/latest/docs#visibility-1).
     - The IBM terraform provider has been updated to version 1.71.3
     - A new input `enable_cos_kms_encryption` has been added to toggle KMS encryption with default value of `true`.
