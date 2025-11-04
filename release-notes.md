@@ -20,6 +20,22 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Cloud foundation for AI ops and governance with watsonx deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## November 2025
+{: #subcollection-nov2025}
+
+### 4 November 2025
+{: #subcollection-4nov2025}
+{: release-note}
+
+Version 2.0.2 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 2.0.2 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - Solution updated to run on terraform v1.12.2.
+    - Added fix for bug which caused an error when using an existing Object Storage instance but allowing the solution to create a new KMS key.
+
+fix bug when using existing COS but creating new KMS key
+update DA to run on terraform v1.12.2
+
 ## October 2025
 {: #subcollection-oct2025}
 
