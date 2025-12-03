@@ -20,6 +20,34 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Cloud foundation for AI ops and governance with watsonx deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## December 2025
+{: #subcollection-dec2025}
+
+### 3 December 2025
+{: #subcollection-3dec2025}
+{: release-note}
+
+Version 2.1.2 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 2.1.2 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - Updated the tile content with a list of features.
+    - Improved UI experience for several inputs.
+    - The IBM terraform provider has been updated to version 1.85.0.
+    - The Mastercard restapi provider has been updated to version 2.0.1.
+
+## November 2025
+{: #subcollection-nov2025}
+
+### 4 November 2025
+{: #subcollection-4nov2025}
+{: release-note}
+
+Version 2.0.2 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 2.0.2 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - Solution updated to run on terraform v1.12.2.
+    - Added fix for bug which caused an error when using an existing Object Storage instance but allowing the solution to create a new KMS key.
+
 ## October 2025
 {: #subcollection-oct2025}
 
