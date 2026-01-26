@@ -20,6 +20,21 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Cloud foundation for AI ops and governance with watsonx deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## January 2026
+{: #subcollection-jan2026}
+
+### 26 January 2026
+{: #subcollection-26jan2026}
+{: release-note}
+
+Version 2.2.27 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 2.2.27 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - The existing instance related inputs have been updated to a drodown box in the UI so it is no longer required to pass full CRN string values.
+    - Added update support to the storage delegation api call.
+    - Disabled restapi provider debug logging.
+    - The IBM terraform provider has been updated to version 1.87.2.
+
 ## December 2025
 {: #subcollection-dec2025}
 
