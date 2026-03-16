@@ -37,3 +37,7 @@ The {{site.data.keyword.Bluemix_notm}} watsonx admin is a physical user, for exa
 {: faq}
 
 An {{site.data.keyword.IBM_notm}} watsonx project is a workspace on the {{site.data.keyword.IBM_notm}} watsonx platform where you have access to various generative AI models and tools for your next AI project. For more information, see [official {{site.data.keyword.IBM_notm}} watsonx documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/manage-projects.html?context=wx&audience=wdp){: external}.
+
+## Known Issues
+
+For a list of common known issues, see [known issues with underlying module](docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-known-issues-watsonx-ai).
