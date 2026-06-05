@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "Cloud foundation for AI ops and governance with watsonx",
-  "introduction": "The Cloud foundation for AI ops and governance with watsonx deployable architecture automates the deployment and setup of the IBM\u00ae watsonx platform in an IBM Cloud account. The IBM watsonx platform is made of several services working together to offer AI capabilities to end users, who can explore them using IBM watsonx projects.",
+  "introduction": "The Cloud foundation for AI ops and governance with watsonx deployable architecture automates the deployment and setup of the IBM® watsonx platform in an IBM Cloud account. The IBM watsonx platform is made of several services working together to offer AI capabilities to end users, who can explore them using IBM watsonx projects.",
   "deployment_url": "https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-watsonx-ai-saas-e8ad6597-8c1a-466a-8bb7-243a109daaa8-global",
   "section_topics": {
     "links": [
