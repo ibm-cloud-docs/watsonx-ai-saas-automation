@@ -20,6 +20,21 @@ content-type: release-note
 Use these release notes to learn about the latest updates to Cloud foundation for AI ops and governance with watsonx deployable architecture that are grouped by date. Release notes are available for a minimum of three years.
 {: shortdesc}
 
+## June 2026
+{: #subcollection-jan2026}
+
+### 05 June 2026
+{: #subcollection-05june2026}
+{: release-note}
+
+Version 2.3.10 of the Cloud foundation for AI ops and governance with watsonx deployable architecture available
+:   Version 2.3.10 of the Cloud foundation for AI ops and governance with watsonx deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#deployable_architecture){: external}.
+
+    - Updated core modules (`configure_user`, `storage_delegation`, `configure_project`) to reference `terraform-ibm-modules/watsonx-ai/ibm`, with seamless migration of existing resources.
+    - Introduced improved KMS handling with a moved block to preserve existing keys and avoid recreation, alongside minor one-time resource transitions that do not impact provisioned services.
+    - Added a `.terraformignore` file to exclude symlinks when using terraform stacks.
+    - The IBM terraform provider has been updated to support IBM provider v2 (i.e. version > 2.0.0)
+
 ## January 2026
 {: #subcollection-jan2026}
 
